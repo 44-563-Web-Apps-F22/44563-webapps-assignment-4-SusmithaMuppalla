@@ -26,14 +26,19 @@ h6.name{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: medium;
     color: black;
+
 }
 h6.ROSE{
-font-style: italic;
-color: brown;
+    border-style: groove;
+    color: darkmagenta;
+    text-shadow:5px 5pz 20px #FF0000;
+    background-color: aliceblue;
 }
 h6.ROB{
-    font-style: oblique;
-    color: azure;
+border-style: hidden;
+color: red;
+text-shadow: 5px 5pz 20px olivedrab;
+background-color: yellow;
 }
 .table{
     border: 3px;
@@ -47,3 +52,74 @@ h6.ROB{
 tr:nth-child(even) {
     background-color: aqua;
 }
+
+.ROSE:hover{
+        text-shadow:  1.5px 1.5px 1.5px #FF0000;
+        border-style: solid;
+        background-color: aqua;
+}
+.ROB:hover{
+    text-shadow:  1.5px 1.5px 1.5px rebeccapurple;
+    border-style: solid;
+    background-color: beige;
+    
+}
+.RUTH{
+    border-style: inherit;
+    color: aqua;
+    text-shadow: darkblue;
+    background-color: blueviolet;
+}
+.HAN{
+    border-style: inset;
+    color: darkmagenta;
+    text-shadow: yellowgreen;
+    background-color: antiquewhite;
+}
+.ZOR{
+    border-style: outset;
+    color: royalblue;
+    text-shadow: yellow;
+    background-color: gainsboro;
+}
+.ALL{
+    border-style:outset ;
+    color: aquamarine;
+    text-shadow: green;
+    background-color: azure;
+}
+.RUTH:hover{
+    text-shadow: 1.5px 1.5px 1.5px darkblue;
+    border-style: ridge;
+    background-color: antiquewhite;
+}
+.HAN:hover{
+    text-shadow: 1.5px 1.5px 1.5px gold ;
+    border-style: dashed;
+    background-color: aliceblue;
+}
+.ZOR:hover{
+    text-shadow: 1.5px 1.5px 1.5px darkred;
+    border-style: inherit;
+    background-color: blanchedalmond;
+}
+.ALL:hover{
+    text-shadow:  1.5px 1.5px 1.5px  palevioletred;
+    border-style: initial;
+    background-color: bisque;
+}
+
+
+}
+
+
+h6.name:hover,
+h6.name:active{
+    text-shadow: 3px 3px 3px green;
+    border: 2px;
+    border-color: bisque;
+    border-style: solid;
+}
+
+
+
