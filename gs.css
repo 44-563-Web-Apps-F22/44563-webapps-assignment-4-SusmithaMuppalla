@@ -1,45 +1,45 @@
-.speech{
+p.speech{
     font-family: 'Courier New', Courier, monospace;
     font-size: 20px;
     color: black;
 }
-.song{
+p.song{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 30px;
     color: black;
 }
-.direction{
+p.direction{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 40px;
     color: black;
     background-color: antiquewhite;
 }
-.direction :hover{
+p.direction :hover{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 50px;
-    color: antiquewhite;
+    color: blue;
     background-color: aqua;
 
 
 }
-.name{
+p.name{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 50px;
+    font-size: 60px;
     color: black;
 }
-.ROSE{
+h6.ROSE{
 font-style: italic;
 color: brown;
 }
-.ROB{
+h6.ROB{
     font-style: oblique;
     color: azure;
 }
-.CHORUS{
+h6.CHORUS{
     font-style: normal;
     color: bisque;
 }
-.RICH{
+h6.RICH{
     font-style: calc();
     color: aquamarine;
 }
