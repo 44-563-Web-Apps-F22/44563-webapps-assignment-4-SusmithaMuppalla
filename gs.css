@@ -110,9 +110,6 @@ tr:nth-child(even) {
 }
 
 
-}
-
-
 h6.name:hover,
 h6.name:active{
     text-shadow: 3px 3px 3px green;
